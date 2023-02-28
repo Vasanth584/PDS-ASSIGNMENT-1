@@ -1,0 +1,25 @@
+
+Call:
+glm(formula = Frailty ~ Height_in_inches + Weight_in_pounds + 
+    Age + Grip_strength, family = "binomial", data = train)
+
+Deviance Residuals: 
+         2           3           4           5           6           9  
+-8.098e-06   1.105e-05   2.110e-08  -1.051e-06   5.467e-06  -9.030e-06  
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)
+(Intercept)      -6.740e+01  3.183e+07       0        1
+Height_in_inches -8.511e+00  6.486e+04       0        1
+Weight_in_pounds  4.006e+00  1.447e+05       0        1
+Age               1.216e+00  1.030e+05       0        1
+Grip_strength     2.705e+00  4.551e+05       0        1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 8.3178e+00  on 5  degrees of freedom
+Residual deviance: 3.0027e-10  on 1  degrees of freedom
+AIC: 10
+
+Number of Fisher Scoring iterations: 23
+
